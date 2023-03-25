@@ -10,11 +10,17 @@ Grupo 1 - Univesp São José do Rio Preto
 :bulb: O grupo tem por objetivo aplicar os conhecimentos gerais de computação junto a frameworks de desenvolvimento decididos de comum acordo. 
 
 :computer: Frameworks escolhidos pelo grupo: 
+
 :pushpin: Flask
+
 :pushpin: HTML 
+
 :pushpin: CSS
+
 :pushpin: JavaScript
+
 :pushpin: MySQL
+
 
 
 
