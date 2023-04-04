@@ -1,4 +1,5 @@
 from spe import db
+
 class ALUNO(db.Model):
     IDALUNO = db.Column(db.Integer, primary_key = True, autoincrement = True)
     NOME = db.Column(db.String(100), nullable = False)
