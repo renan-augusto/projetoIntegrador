@@ -1,14 +1,14 @@
 from flask import render_template, request, redirect, session, flash, url_for
 from spe import app, db
-from models import ALUNO, PROFESSOR
+from models import ALUNO
 
-@app.route('/', methods=['POST', ])
+@app.route('/')
 def index():
     return render_template('index.html')
 
-@app.route('/register', methods=['POST', ])
+@app.route('/register-student', methods=['POST','GET', ])
 def register_student():
-    if request.method == "POST":
+    if request.method == 'POST':
         name = request.form['name']
         email = request.form['email']
         ra = request.form['ra'] 
@@ -19,10 +19,6 @@ def register_student():
         db.session.commit()
      
     return render_template('register-student.html')
-
-@app.route('/login')
-def login():
-    pass
 
 @app.route('/authenticate', methods=['POST', ])
 def authenticate():

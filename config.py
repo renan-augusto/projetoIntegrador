@@ -1,7 +1,7 @@
 SECRET_KEY = 'grupo1sjrp'
 
 SQLALCHEMY_DATABASE_URI = \
-    '{SGBD}: // {usuario}:{senha}@{servidor}/{database}'.format(
+    '{SGBD}://{usuario}:{senha}@{servidor}/{database}'.format(
         SGBD = 'mysql+mysqlconnector',
         usuario = 'root',
         senha = 'admin',
