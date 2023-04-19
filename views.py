@@ -1,10 +1,10 @@
 from flask import render_template, request, redirect, session, flash, url_for
 from spe import app, db
-from models import ALUNO
+from models import ADMIN    
 
-@app.route('/')
-def index():
-    return render_template('index.html')
+# @app.route('/')
+# def index():
+#     return render_template('index.html')
 
 @app.route('/register-student', methods=['POST','GET', ])
 def register_student():
@@ -20,10 +20,3 @@ def register_student():
      
     return render_template('register-student.html')
 
-@app.route('/authenticate', methods=['POST', ])
-def authenticate():
-    pass
-
-@app.route('/logout')
-def logout():
-    pass
