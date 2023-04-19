@@ -14,7 +14,11 @@ Grupo 1 - Univesp São José do Rio Preto
 
 💻 Frameworks escolhidos pelo grupo:
 
-📌 Flask
+📌 Python = 3.11.2
+
+📌 Flask = 2.0.2
+
+📌 Bootstrap = 4
 
 📌 HTML
 
@@ -29,7 +33,14 @@ Como rodar:
 navegar até a pasta na qual o arquivo foi salvo
 
 instalar o flask 2.0.2 - pip install flask==2.0.2
+pip3.exe install mysqlclient
+mysql-connector-python: 8.0.28
+Flask-SQLAlchemy: 2.5.1
+Flask-WTF: 1.0.0
+Flask-Bcrypt: 0.7.1
 
 rodar o arquivo spe.oy - python spe.py
 
 acessar o endereço local disponibilizado na linha "Running on http..."
+
+
